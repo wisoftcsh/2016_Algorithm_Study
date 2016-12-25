@@ -9,10 +9,8 @@ public class ReverseFunction {
 
     public String reverse(String string) {
         String reverseString = "";
-        char tmp;
         for (int i = string.length() - 1 ; i >= 0; i--) {
-            tmp = string.charAt(i);
-            reverseString += tmp;
+            reverseString += string.charAt(i);
         }
         return reverseString;
     }
