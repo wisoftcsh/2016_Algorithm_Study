@@ -5,7 +5,7 @@ package reversestring;
  */
 public class ReverseEx {
     public static void main(String[] args) {
-        ReverseFunction reverseFunction = new ReverseFunction();
-        System.out.println(reverseFunction.reverse("This is the test."));
+        ReverseByStringBuilder reverseByStringBuilder = new ReverseByStringBuilder();
+        System.out.println(reverseByStringBuilder.reverse(new StringBuilder("This is the test.")));
     }
 }

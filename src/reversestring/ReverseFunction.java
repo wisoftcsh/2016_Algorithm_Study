@@ -8,7 +8,7 @@ public class ReverseFunction {
     }
 
     public String reverse(String string) {
-        String reverseString = "";
+        String reverseString = ""; // 타입의 문제
         for (int i = string.length() - 1 ; i >= 0; i--) {
             reverseString += string.charAt(i);
         }
