@@ -15,7 +15,8 @@ String 객체는 Imuutable하기 때문에 간단하게 사용가능하고, 동�
 그렇지만 매번 string 객체를 생성하기 때문에 성능상 문제가 발생할 수 있다.
 
 
-##해결방법
+
+# 해결방법
 
 ---
 ### StringBuilder와 StringBuffer를 사용하라.
