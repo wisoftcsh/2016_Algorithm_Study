@@ -1,8 +1,10 @@
 # String, StringBuffer, StringBuilder
 
 ---
+
 1. String 객체는 immutable 이다. 즉, 불변하다
 2. StringBuffer와 StringBuilder의 차이는 동기화에 있다.
+
 ---
 
 1번에 대해 설명하자면, String 객체가 한개 선언 되면 그 문자열에 대해서는 수정이 불가능하다는 뜻,
