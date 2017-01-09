@@ -2,11 +2,11 @@ string[] words = {"hello", "wonderful", "linq", "beautiful", "world"};
 
 이런 자료(배열이 아니어도 됨)가 주어져 있을 때, 다음과 같이 출력하도록 구성하세요.
 
-Worlds of length 9
+Words of length 9
  beautiful
  wonderful
-Worlds of length 5
+Words of length 5
  hello
  world
-Worlds of length 4
+Words of length 4
  linq
